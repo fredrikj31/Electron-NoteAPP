@@ -1,0 +1,24 @@
+{
+  "name": "electron-noteapp",
+  "version": "1.0.1",
+  "description": "A simple note taking app in electron",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^7.0.1",
+    "electron-json-storage": "^4.1.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredrikj31/Electron-NoteAPP.git"
+  },
+  "author": "fredrikj31",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fredrikj31/Electron-NoteAPP/issues"
+  },
+  "homepage": "https://github.com/fredrikj31/Electron-NoteAPP#readme"
+}

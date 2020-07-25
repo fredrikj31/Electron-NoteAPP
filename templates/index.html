@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Note App - Home</title>
+	<!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+	<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+	<link rel="stylesheet" href="../assets/style.css">
+</head>
+
+<body>
+	<div class="header">
+		<h2>Notes</h2>
+	</div>
+	<div class="addItem">
+		<input type="text" placeholder="Buy Milk" name="AddItem" id="AddItem"> <button id="itemSubmit">Add Item</button>
+	</div>
+	<div class="list">
+		<div class="todo">
+			<h4>ToDo <span id="todoCount"></span></h4>
+			<div id="todos"></div>
+		</div>
+		<div class="done">
+			<h4>Done <span id="doneCount"></span></h4>
+			<div id="doneTodos"></div>
+		</div>
+	</div>
+	<script src="../assets/notes.js"></script>
+</body>
+
+</html>
