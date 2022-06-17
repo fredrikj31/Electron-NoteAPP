@@ -4,7 +4,7 @@
   "description": "A simple note taking app in electron",
   "main": "main.js",
   "dependencies": {
-    "electron": ">=7.2.4",
+    "electron": ">=15.5.5",
     "electron-json-storage": "^4.1.8"
   },
   "devDependencies": {},
